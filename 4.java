@@ -5,14 +5,14 @@ public class urut {
 
     public static void main(String[] args) {
 
-        String[] nilaiInteger = {"2ibu","1ini","3budi"};
-        String tampilan;
+        String[] text = {"2ibu","1ini","3budi"};
+        String out;
 
-        Arrays.sort(nilaiInteger);
-        tampilan = "\nMenampilkan elemen larik integer setelah diurutkan :\n";
-        for (int x = 0; x < nilaiInteger.length; x++)
-            tampilan += nilaiInteger[x] + " ";
-        System.out.print(tampilan);
+        Arrays.sort(text);
+        out = "Menampilkan elemen larik integer setelah diurutkan :\n";
+        for (int x = 0; x < text.length; x++)
+            out += text[x] + " ";
+        System.out.print(out);
 
     }
 }
